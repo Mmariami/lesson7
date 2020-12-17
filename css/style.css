@@ -8,14 +8,18 @@
 .clear {
     clear: both;
 }
+.container {
+    width: 1324px;
+    margin: 0 auto;
+}
 
 /* header */
 .logo {
-
     margin-left: 140px;
+    vertical-align: middle;
 }
-.navigation {
-
+.nav-ul{
+    vertical-align: middle;
 }
 .nav-li{
     padding-right: 48px;
@@ -23,6 +27,7 @@
 /* banner-image SECTION */
 .banner-wrapper {
     position: relative;
+    margin-top: 24px;
 }
 .banner-text {
     position: absolute;
@@ -41,4 +46,35 @@
 }
 .banner-image {
     width:100%;
+}
+.popular-post {
+    color: #FF7A00;
+    margin-left: 172px;
+    font-size: 22px;
+    margin-top:90px;
+    margin-bottom: 80px;
+}
+/* posts section */
+.left-block {
+    width: 636px;
+}
+.right-block {
+    width: 636px;
+}
+.box-wrapper2 {
+    margin-top: 58px;
+}
+.article-title {
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 26px;
+}
+.article-p {
+    padding-bottom: 16px;
+    color: #7B7B7B;
+}
+.read {
+    color: #FF7A00;
+    font-size: 14px;
 }
