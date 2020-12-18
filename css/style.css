@@ -14,13 +14,14 @@
 }
 
 /* header */
-.logo {
+.header-wrapper
+{
     margin-left: 140px;
-    vertical-align: middle;
 }
-.nav-ul{
-    vertical-align: middle;
+.logo{
+    margin-right: 50px;
 }
+
 .nav-li{
     padding-right: 48px;
 }
@@ -77,4 +78,30 @@
 .read {
     color: #FF7A00;
     font-size: 14px;
+}
+.read::after{
+    content: '';
+    width: 48px;
+    height: 4px;
+    background-color:#FF7A00 ;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+.button1 {
+    height: 70px;
+    width: 190px;
+    margin-top: 66px;
+    background-color:#FF7A00 ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-bottom: 200px;
+ 
+}
+.button-text {
+    font-size: 22px;
+    color:white;
+    padding-left: 50px;
+    padding-top: 20px;
 }
