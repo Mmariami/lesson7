@@ -19,11 +19,14 @@
     margin-left: 140px;
 }
 .logo{
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .nav-li{
     padding-right: 48px;
+}
+.navigation{
+    margin-top: 36px;
 }
 /* banner-image SECTION */
 .banner-wrapper {
@@ -105,3 +108,33 @@
     padding-left: 50px;
     padding-top: 20px;
 }
+
+/* footer SECTION */
+
+.footer-background {
+    width:100%;
+    height: 300px;
+    background-color: #181C28;
+}
+.column1{
+    margin-right: 198px;
+}
+.column2{
+    margin-right: 198px;
+}
+.footer-text-wrapper {
+    padding-top: 50px;
+    margin-left: 70px;
+}
+.column-title {
+    color: white;
+    font-size: 16px;
+    padding-bottom: 20px;
+    opacity: 80%;
+}
+.col-p {
+    padding-bottom: 10px;
+    color: #7B7B7B;
+    opacity: 80%;
+}
+
