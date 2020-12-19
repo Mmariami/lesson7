@@ -17,6 +17,8 @@
 .header-wrapper
 {
     margin-left: 140px;
+    position: fixed;
+    z-index: 5;
 }
 .logo{
     margin-right: 100px;
