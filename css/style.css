@@ -99,8 +99,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    margin-bottom: 200px;
- 
+    margin-bottom: 150px;
 }
 .button-text {
     font-size: 22px;
@@ -137,4 +136,17 @@
     color: #7B7B7B;
     opacity: 80%;
 }
+.payment {
+    margin-right: 70px;
+}
 
+.visa ,
+.mastercard {
+    margin-left: 14px;
+}
+.copyright{
+    color: white;
+    margin-right: 70px;
+    margin-bottom: 0px;
+    opacity: 0.7;
+}
